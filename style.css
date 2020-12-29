@@ -2,3 +2,14 @@ body {
   /* font-family: 'Arial', sans-serif; */
   font-family: 'Nunito', sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    display: block;
+    text-align: center;
+    width: 82%;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+}
