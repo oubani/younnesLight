@@ -3,6 +3,28 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#conatct-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+#contact-form textarea {
+  height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
 @media only screen and (max-width: 768px) {
   .btn {
     display: block;

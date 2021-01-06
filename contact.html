@@ -76,5 +76,38 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Main -->
+
+    <section id="contact-form" class="py-3 container mx-auto">
+      <div class="container px-5 md:px-0">
+        <h1 class="text-4xl my-3">
+          <span class="text-green-600">Contact Us</span>
+        </h1>
+        <p class="my-2">Please fill out the form below to contact :</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="name">Email : </label>
+            <input type="text" name="name" id="Email" />
+          </div>
+          <div class="form-group">
+            <label for="name">Message : </label>
+            <textarea type="text" name="message" id="message"></textarea>
+          </div>
+          <button
+            type="submit"
+            class="text-xl text-white hover:shadow-xl border-1 px-8 py-2 bg-green-600"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="index.js"></script>
+    <script></script>
   </body>
 </html>
