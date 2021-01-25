@@ -3,6 +3,14 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  width: 60px;
+}
+
 #contact-form .form-group {
   margin-bottom: 20px;
 }
