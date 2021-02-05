@@ -42,4 +42,15 @@ body {
   .info {
     margin-bottom: 50px;
   }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery div img {
+    padding: 0.1rem;
+  }
+}
+
+.gallery div img {
+  padding: 0.1rem;
 }
